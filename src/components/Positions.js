@@ -5,7 +5,7 @@ import axios from "axios";
 const Positions = () => {
   const[allPositions ,setAllPositions] = useState([]);
   useEffect(()=>{
-    axios.get("https://stocktrading-backend-uggp.onrender.com/allPosition").then((res)=>{
+    axios.get("http://localhost:5000/allPosition").then((res)=>{
 
       setAllPositions(res.data);
     })

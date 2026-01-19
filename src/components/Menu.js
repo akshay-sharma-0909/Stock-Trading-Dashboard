@@ -1,4 +1,3 @@
-import { ImportExport } from "@mui/icons-material";
 import React, { useState, useEffect } from "react";
 import {useNavigate} from 'react-router-dom';
 
@@ -17,7 +16,7 @@ const Menu = () => {
   const handleLogout =()=>{
     localStorage.removeItem("loggedInUser");
     setTimeout(()=>{
-      navigate("http://localhost:3000/")
+      navigate("https://stock-trading-landing-page.onrender.com/")
     },1000)
 
   };

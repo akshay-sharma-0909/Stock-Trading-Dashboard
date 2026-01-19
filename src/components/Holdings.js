@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { VerticalGraph } from "./VerticalGraph";
 
+
 //import { holdings } from "../data/data";
 
 const Holdings = () => {
@@ -9,7 +10,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]); 
 
   useEffect(()=>{
-    axios.get("https://stocktrading-backend-uggp.onrender.com/allHoldings").then((res)=>{
+    axios.get("http://localhost:5000/allHoldings").then((res)=>{
       console.log(res.data);
       setAllHoldings(res.data);
     })
