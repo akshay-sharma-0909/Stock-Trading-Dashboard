@@ -74,19 +74,18 @@ project-root/
 ## Screenshots
 ***Dashboard***
 
-<img width="494" height="547" alt="Image" src="https://github.com/user-attachments/assets/62de9edc-8ddd-494f-af0e-d4e45202974d" />
-
+<img width="1279" height="820" alt="Image" src="https://github.com/user-attachments/assets/435906ae-36e3-4ee7-be4d-787b671c7187" />
 
 ***Holding***
 
 
-<img width="501" height="672" alt="Image" src="https://github.com/user-attachments/assets/340de991-cae1-4b50-8db5-0cce58277981" />
+<img width="1292" height="816" alt="Image" src="https://github.com/user-attachments/assets/d7fa363f-e0e0-4943-bd5b-aa1e53046d84" />
 
 
 
 
 ***Position***
-<img width="1872" height="906" alt="Image" src="https://github.com/user-attachments/assets/46cc71df-7c63-40a3-9099-dfbdaeca0eda" />
+<img width="1304" height="908" alt="Image" src="https://github.com/user-attachments/assets/81e619ff-de73-423b-afcb-f487414429e1" />
 
 
 
