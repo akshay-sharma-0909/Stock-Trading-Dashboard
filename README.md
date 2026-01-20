@@ -1,11 +1,23 @@
 ## Stock Trading Platform 
-** Stock Trading Platform** is a web-based application that simulates real-world stock trading functionality. The platform allows users to track market holdings, view positions, place orders, and manage their trading dashboard in a structured and secure way.
+** Stock Trading Platform is a web-based dashboard application that simulates real-world stock trading functionality. The platform allows users to track holdings, view positions, manage orders, and monitor portfolio performance through an interactive and structured UI.
 
-This project replicates the core UI and backend workflow of Zerodha, focusing on portfolio management, authentication, and RESTful APIs.
+This project is inspired by real-world trading platforms (e.g., Zerodha) and focuses on portfolio management, authentication flow, data visualization, and REST-based integration.
 
 ## Features
 
-- ** User Authentication **: Secure user and owner accounts with role-based access control.- 
+- **User Dashboard – View holdings, positions, funds, and orders
+
+-**Portfolio Summary – Real-time visual insights using charts
+
+-**Order Simulation – Buy/Sell interaction window
+
+-**Watchlist Management – Track selected stocks
+
+-**Data Visualization – Doughnut & vertical graphs
+
+-**Component-Based UI – Modular and reusable React components
+
+-**State Management – Centralized state using React Context API
 
 ## Installation
 **Prerequisites**
@@ -17,6 +29,7 @@ This project replicates the core UI and backend workflow of Zerodha, focusing on
 1. Clone the Repository:
 ```bash
 git clone https://github.com/akshay-sharma-0909/Stock-Trading-Dashboard
+cd Stock-Trading-Dashboard
 ```
 2. Install Backend Dependencies:
 
@@ -46,28 +59,46 @@ npm start
 ## Tech Stack
 - Backend: Node.js, Express.js
 - Database: MongoDB
-- Fronted :React.js
+- Fronted :React.js, CSS, JavaScript
+- Deployment: Render
 
 ## Folder Structure
 ```
-project-root/
+trading-platform-dashboard/
 │
-├── controllers/        # Business logic for routes
-├── init/               # DB connection & initialization files
-├── model/              # MongoDB schemas & models
-├── patches/            # Utility patches or fixes
-├── public/             # Static assets (CSS, JS, images)
-├── routes/             # Express route definitions
-├── utils/              # Helper & utility functions
-├── views/              # EJS templates
+├── public/
 │
+├── src/
+│   ├── components/             # Dashboard UI components
+│   │   ├── Apps.js
+│   │   ├── BuyActionWindow.js
+│   │   ├── BuyActionWindow.css
+│   │   ├── Dashboard.js
+│   │   ├── DoughnutGraph.js
+│   │   ├── Funds.js
+│   │   ├── GeneralContext.js
+│   │   ├── Holdings.js
+│   │   ├── Home.js
+│   │   ├── Menu.js
+│   │   ├── Orders.js
+│   │   ├── Positions.js
+│   │   ├── Summary.js
+│   │   ├── TopBar.js
+│   │   ├── VerticalGraph.js
+│   │   └── WatchList.js
+│   │
+│   ├── data/
+│   │   └── data.js             # Static / mock data
+│   │
+│   ├── index.css               # Global styles
+│   └── index.js                # React entry point
+│
+├── .env                         # Environment variables
 ├── .gitignore
-├── CloudConfig.js      # Cloud service configuration
-├── joi.js              # Joi validation schemas
-├── app.js              # Express app entry point
-├── middleware.js       # Custom middleware
 ├── package.json
 └── package-lock.json
+
+
 
 ```
 
